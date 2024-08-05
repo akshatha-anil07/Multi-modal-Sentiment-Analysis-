@@ -1,20 +1,8 @@
-# Traffic-Flow-Optimization
+
 
 ## Overview
 
 Traffic Flow Optimization is a real-time traffic flow optimization system that uses uAgents to manage different aspects of traffic, including congestion, accidents, and public transportation schedules. The system leverages APIs to gather real-time data and provides users with optimal routes based on current traffic conditions and public transport availability.
-
-## Directory Structure
-
-Sure, here's a complete README.md file for the project:
-
-markdown
-Copy code
-# TrafficFlowOptima
-
-## Overview
-
-TrafficFlowOptima is a real-time traffic flow optimization system that uses uAgents to manage different aspects of traffic, including congestion, accidents, and public transportation schedules. The system leverages APIs to gather real-time data and provides users with optimal routes based on current traffic conditions and public transport availability.
 
 ## Directory Structure
 
