@@ -7,20 +7,20 @@ Traffic Flow Optimization is a real-time traffic flow optimization system that u
 ## Directory Structure
 
 TrafficFlowOptima/
-├── poetry.lock
-├── pyproject.toml
-├── README.md
-└── src
-├── agents
-│ ├── traffic_agent.py
-│ ├── public_transport_agent.py
-│ ├── user_agent.py
-│ └── init.py
-├── main.py
-├── messages
-│ └── init.py
-└── utils
-└── init.py
+ ├── poetry.lock
+ ├── pyproject.toml
+ ├── README.md
+ └── src
+ ├── agents
+ │ ├── traffic_agent.py
+ │ ├── public_transport_agent.py
+ │ ├── user_agent.py
+ │ └── init.py
+ ├── main.py
+ ├── messages
+ │ └── init.py
+ └── utils
+ └── init.py
 
 ## Getting Started
 
