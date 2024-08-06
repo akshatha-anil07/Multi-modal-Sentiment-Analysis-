@@ -17,7 +17,7 @@ This project integrates the BLIP model for image captioning with a sentiment ana
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-repo/blip-integrations.git
+   git clone https://github.com/akshatha-anil07/Multi-modal-Sentiment-Analysis-
    cd blip-integrations/src
    ```
    
