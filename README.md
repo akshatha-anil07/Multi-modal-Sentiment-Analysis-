@@ -1,43 +1,36 @@
-
+Multi-modal Sentiment Analysis 
 
 ## Overview
 
-Traffic Flow Optimization is a real-time traffic flow optimization system that uses uAgents to manage different aspects of traffic, including congestion, accidents, and public transportation schedules. The system leverages APIs to gather real-time data and provides users with optimal routes based on current traffic conditions and public transport availability.
+This project integrates the BLIP model for image captioning with a sentiment analysis model to perform multi-modal sentiment analysis. The system is designed to analyze social media posts that include both images and text, generating captions for images and evaluating the sentiment of both the captions and accompanying text. The overall sentiment score provides a comprehensive view of the sentiment expressed in the content.
 
-## Directory Structure
-
-TrafficFlowOptima/
- ├── poetry.lock
- ├── pyproject.toml
- ├── README.md
- └── src
- ├── agents
- │ ├── traffic_agent.py
- │ ├── public_transport_agent.py
- │ ├── user_agent.py
- │ └── init.py
- ├── main.py
- ├── messages
- │ └── init.py
- └── utils
- └── init.py
-
-## Getting Started
+## Instructions to Run the Project
 
 ### Prerequisites
 
-- Python 3.7+
-- [Poetry](https://python-poetry.org/) for dependency management
-- API keys for Google Maps (or other relevant services)
+- Python (v3.10+ recommended)
+- Poetry (A Python packaging and dependency management tool)
+- HuggingFaceAPI Token
 
 ### Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/TrafficFlowOptima.git
-   cd TrafficFlowOptima
-2. Install dependencies using Poetry 
+   git clone https://github.com/your-repo/blip-integrations.git
+   cd blip-integrations/src
+
+2. Create and Configure .env File
+
+Create a .env file and add your HuggingFaceAPI Token: 
+ ````bash
+    nano .env
+
+3. Add the following line to the .env file:
+
+plaintext
+Copy code
+export HUGGING_FACE_ACCESS_TOKEN="Your HuggingFaceAPI Token"
       poetry install
 
 ### Configuration
