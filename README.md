@@ -23,7 +23,7 @@ This project integrates the BLIP model for image captioning with a sentiment ana
    
 2.  Create and Configure .env File
 
-Create a .env file and add your HuggingFaceAPI Token:
+       Create a .env file and add your HuggingFaceAPI Token:
    ```bash
    nano .env
 ```
@@ -37,13 +37,13 @@ Create a .env file and add your HuggingFaceAPI Token:
    ```
 5. Install Dependencies
 
-Install the required dependencies using Poetry
+   Install the required dependencies using Poetry
 ```bash
 poetry install
 ```
 6. Run the Main Script
 
-Run the main script to perform multi-modal sentiment analysis:
+   Run the main script to perform multi-modal sentiment analysis:
 ```bash
 poetry run python main.py
 ```
